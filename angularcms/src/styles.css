@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+nav.admin {
+    background: rgb(133, 187, 255);
+    color: black;
+    position: fixed;
+    width: 150px;
+    top: 60px;
+    left: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    border-color: transparent;
+}
+
+nav.admin li {
+    float: none;
+}
+
+nav.admin li a {
+    color: white !important;
+    font-weight: bold;
+}
+
+div.space {
+    padding-left: 180px;
+}
